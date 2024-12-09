@@ -107,7 +107,7 @@ def show_gray(array):
   plt.figure(figsize=(10,10))
   plt.grid(None)
   plt.imshow(array,cmap='gray',vmin=0,vmax=1)
-  return None
+  plt.show()
 
 """ **Problem 4**"""
 
@@ -127,7 +127,8 @@ plt.show()
 """**Problem 6**"""
 
 # Save the value you obtain in Problem 6 as the variable min_rank.
-
+print("gg")
+show_gray(lower_rank(gray_array, 30))
 
 min_rank=100
 
