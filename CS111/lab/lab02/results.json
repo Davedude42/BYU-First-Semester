@@ -1,0 +1,46 @@
+{
+    "tests": [
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_lab02.py::test_even_weighted_1_2_3_4_5_6",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_lab02.py::test_even_weighted_9_17_4_5_4",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_lab02.py::test_couple_1_2_3_4_5_6",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 2.5,
+            "max_score": 2.5,
+            "name": "test_lab02.py::test_couple_c_6_s_1",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab02.py::test_count_appearances",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab02.py::test_copy_file",
+            "output": "1: They say you should never eat dirt.\n2: It's not nearly as good as an onion.\n3: It's not as good as the CS pun on my shirt.\n",
+            "visibility": "visible"
+        }
+    ]
+}

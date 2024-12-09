@@ -1,0 +1,2 @@
+python3 -m doctest lab00.py
+python3 -m pytest -vv .

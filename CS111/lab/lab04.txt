@@ -1,0 +1,55 @@
+
+Q1 & Q2:
+1. Parse user input and commands.
+    - Identify commands and parameters given by user
+    - Error if an invalid command is given
+2. Run given commands
+    - Function is needed for every possible command
+    - Functions should be given parameters
+         - And give error if parameters are not valid
+    - Give error if something goes wrong
+    - Q3: Specific commands and functions need to be broken down further!!!
+3. Return result
+    - Be able to output in different ways (to file, to image viewer)
+
+
+
+Q4:
+displayImage   -d file_name
+grayscaleImage -g file_name
+sepiaImage     -s file_name
+darkenImage    -e file_name factor
+borderImage    -b file_name width red green blue
+vertFlipImage  -v file_name
+horizFlipImage -h file_name
+collageImages  -c file_name1 file_name2 file_name3 file_name4 width
+greenImage     -g file_name threshold factor
+
+Q5:
+We used the first letter of the function because that would make the most since. When we got to darken however, -d had already been used, so we picked another letter randomly: -e. We can't make it too easy.
+
+Q6:
+They all require file_name, but otherwise they have varying amounts and types of parameters. We will likely want to give the parameters to the functions as strings rather than parsing them as numbers beforehand.
+
+Q7:
+We will want to verify that the user is giving a valid command flag
+We will want to verify that the path to the image exists.
+We will want each function to verify its own parameters: that there is the right number and that they are each the right type and within the right range.
+
+Q8:
+If the file_name given is inaccessible, it will quit after printing:
+ERROR!! :((( The image "MY IMAGE.exe.jpg" could not be found. Type `ls` then the enter key before running this again. (The enter key is the one on the far right btw.)
+
+If there is the wrong length of parameters, it will quit after printing:
+ERROR!! :((( The darkenImage function requires 2 parameters: file_name, factor. Only 1 was given. You can count, can't you?
+
+If a parameter is the wrong type or out of range, the function with quit after printing:
+ERROR!! :((( The red parameter must be between 0 and 255. -inf was given. Do you really think you could handle -inf red?
+
+Q9:
+I will need to learn better file input, to verify a file exists and give a proper error if it doesn't.
+I will need to learn image manipulation in python. How to read an image, parse it, modify it, and put it back into a file.
+Also, I'll need to learn how to show in image in the standard image viewer on linux on my computer, because I imagine it's harder than it needs to be.
+
+Q10:
+It used -k for darken instead of -e for darken. Personally, I think -e makes far more sense and honestly the autograder should be changed to match it.

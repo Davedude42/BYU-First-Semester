@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab19.py::test_download",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab19.py::test_make_pretty",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab19.py::test_find_paragraphs",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab19.py::test_find_links",
+            "output": "[<a href=\"https://www.w3schools.com/\">W3Schools</a>, <a href=\"https://stackoverflow.com/\">Stack Overflow</a>, <a href=\"https://github.com/\">GitHub</a>]\n\n",
+            "visibility": "visible"
+        }
+    ]
+}

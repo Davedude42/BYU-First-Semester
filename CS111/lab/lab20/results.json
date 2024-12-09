@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab20.py::test_get_domain",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab20.py::test_combine_paths",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab20.py::test_combine_urls",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab20.py::test_print_pages",
+            "output": "https://cs111.byu.edu/pages/about/ /lab/lab20/assets/page1.html https://cs111.byu.edu/lab/lab20/assets/page1.html\nhttps://cs111.byu.edu/pages/about/ page2.html https://cs111.byu.edu/lab/lab20/assets/page2.html\nhttps://cs111.byu.edu/pages/about/ /lab/lab20/assets/more_pages/page3.html https://cs111.byu.edu/lab/lab20/assets/more_pages/page3.html\nhttps://cs111.byu.edu/pages/about/ /lab/lab20/assets/page4.html https://cs111.byu.edu/lab/lab20/assets/page4.html\n\n",
+            "visibility": "visible"
+        }
+    ]
+}
