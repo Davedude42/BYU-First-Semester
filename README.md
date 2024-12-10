@@ -14,10 +14,10 @@ I think this collection of projects has most showed me how often I can use my sk
 
 ## Experiences shown through code
 
-1. Learning in CS 111
-2. Intersection between math and programming
-3. Contributing to research with just python
-4. Playing with low-level programming on my Y-Board
-5. Programming a circuit board and parsing its data
-6. Creating game night statistics
-7. Solving a puzzle on the back of a Dots box
+1. CS111 - Everything new I learned in CS 111
+2. Dots - Wasting time with my roommate solving a seemingly simple problem in the most convoluted, nerdy ways possible
+3. Icarus - Working as a team to create something I never thought possible for me
+4. MATH215 - Where math and programming intersected like never before
+5. Research Programming - I know enough to contribute something to a research team!
+6. Root - Board game statistics with the boys
+7. Y-Board - Exploring my major and low-level programming in a very approachable way!
